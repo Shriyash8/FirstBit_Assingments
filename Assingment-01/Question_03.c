@@ -4,8 +4,8 @@
 
 #include<stdio.h>
 void main(){
-  int Celsius = 27;
-  int Farenheit = (celsius * 9/5) + 32;
+  int celsius = 27;
+  int farenheit = (celsius * 9/5) + 32;
 
-  printf("Converted temprature from celsius to farenheit is %d", Farenheit);
+  printf("Converted temprature from Celsius to Farenheit is %d", farenheit);
 }
