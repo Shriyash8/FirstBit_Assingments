@@ -1,9 +1,16 @@
 // Write a C program to add two integers and display the result
 
-#incluede <stdio.h>
+#include<stdio.h>
+int add();
 void main(){
-  int num1 = 20;
-  int num2 = 30;
-  int sum = num1 + num2;
-  printf("The sum of two digits is %d", sum);
+    int x;
+    x = add();
+    printf("Addition of Numbers is %d", x);
 }
+ int add(){
+    int a , b;
+    printf("Enter two numbers to add ");
+    scanf("%d %d", &a, &b);
+    int c = a + b;
+    return c;
+ }
